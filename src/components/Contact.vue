@@ -85,6 +85,24 @@ const submit = () => {
 						class="self-center bg-gray-800 hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm">
 						送出
 					</button>
+          const submit = () =>{
+              const access_key = ''
+          axios.post('https://api.web3forms.com/submit',{
+          access_key,
+          email: email.value,
+          name: name.value,
+          message:message.value
+          }).then(res =>{
+          if (res.status === 200){
+          Swal.fire({
+          title:'感謝您的來信',
+          text: '我們會盡快回覆您',
+          icon: 'success',
+          confirmButtonText: '確定'
+          })
+          }
+          })
+          }
 				</form>
 			</div>
 		</div>
