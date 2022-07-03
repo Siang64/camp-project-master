@@ -7,20 +7,20 @@ const skills = [
 		description: '開發網頁、網站、網路應用程式。',
 	},
 	{
-		title: '寫作',
-		description: '寫作文章、網誌',
+		title: '繪畫',
+		description: '發揮創意、繪製插畫',
 	},
 	{
-		title: '吹泡泡',
-		description: '吹出一顆又一顆泡泡',
+		title: '閱讀',
+		description: '徜徉在文字海中',
 	},
 	{
-		title: '煮飯',
-		description: '煮出美味佳餚',
+		title: '做餅乾',
+		description: '製作美味小點心',
 	},
 	{
-		title: '種植物',
-		description: '自己種東西來吃',
+		title: '運動',
+		description: '喜愛騎腳踏車',
 	},
 ]
 </script>
